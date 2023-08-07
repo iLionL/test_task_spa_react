@@ -45,16 +45,21 @@ const ProductComponent = ({ information }) => {
 					including versions of Lorem Ipsum.
 				</p>
 
-				<Button
-					customStyle={{
-						background: 'white',
-						marginTop: '1rem',
-						fontSize: '18px',
-						color: '#243043',
-						fontWeight: 'bolder',
-					}}
-					text="Listen more on Spotify"
-				/>
+				<a
+					style={{ textDecoration: 'none' }}
+					href="https://open.spotify.com/"
+				>
+					<Button
+						customStyle={{
+							background: 'white',
+							marginTop: '1rem',
+							fontSize: '18px',
+							color: '#243043',
+							fontWeight: 'bolder',
+						}}
+						text="Listen more on Spotify"
+					/>
+				</a>
 			</div>
 		</div>
 	);

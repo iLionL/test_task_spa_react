@@ -8,7 +8,6 @@ import ContactComponent from './Contact/ContactComponent';
 import cl from './MainPage.module.css';
 
 const MainPage = ({ information }) => {
-	console.log(information, 'information');
 	const dateObject = new Date(information?.elementsData?.elementDate);
 
 	const options = {
