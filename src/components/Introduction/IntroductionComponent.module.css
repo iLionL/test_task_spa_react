@@ -1,0 +1,90 @@
+.contentWrapper {
+	margin-top: 16rem;
+	margin-bottom: 16rem;
+	padding: 1rem 4.375rem;
+	text-align: left;
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+	flex-direction: row;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.seaImage {
+	margin-right: -4.375rem;
+	max-width: 650px;
+	max-height: 450px;
+	margin-left: 5rem;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+@media (max-width: 1400px) {
+	.contentWrapper {
+		padding: 1rem 3.375rem;
+	}
+}
+
+@media (max-width: 1200px) {
+	.contentWrapper {
+		padding: 1rem 2.375rem;
+	}
+}
+@media (max-width: 1100px) {
+	.contentWrapper {
+		margin-right: 2.375rem;
+		flex-direction: column;
+		margin-top: 12rem;
+		margin-bottom: 12rem;
+	}
+	.seaImage {
+		width: 100%;
+		max-width: 900px;
+		height: auto;
+		margin: auto;
+		margin-top: 2rem;
+	}
+}
+
+@media (max-width: 900px) {
+	.contentWrapper {
+		flex-direction: column;
+		margin-top: 12rem;
+		margin-bottom: 12rem;
+	}
+
+	.seaImage {
+		margin-right: 0;
+		margin-left: 0;
+		max-width: 100%;
+		max-height: 350px;
+		border-radius: 5px;
+		margin-top: 2rem;
+	}
+
+	.content h2 {
+		margin-bottom: 1rem !important;
+	}
+}
+
+@media (max-width: 768px) {
+	.contentWrapper {
+		flex-direction: column;
+		margin-top: 6rem;
+		margin-bottom: 6rem;
+	}
+
+	.seaImage {
+		margin-right: 0;
+		margin-left: 0;
+		max-width: 100%;
+		max-height: 300px;
+		border-radius: 5px;
+		margin-top: 1rem;
+	}
+}

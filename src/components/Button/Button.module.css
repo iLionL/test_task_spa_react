@@ -1,0 +1,28 @@
+.buttonCustom {
+	display: flex;
+	background: #243043;
+	color: white;
+	padding: 5px 30px;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+	align-items: center;
+	justify-content: center;
+}
+
+.buttonCustom:hover {
+	background: #a4d0dd !important;
+	color: #243043 !important;
+	transition: background-color 0.3s ease;
+}
+
+.buttonCustom:not(:hover) {
+	transition: background-color 0.3s ease;
+}
+
+.buttonIcon {
+	margin-left: 10px;
+	display: flex;
+	align-items: center;
+	transform: scale(0.9);
+}

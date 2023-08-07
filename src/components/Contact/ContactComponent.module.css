@@ -1,0 +1,77 @@
+.connectWrapper {
+	border: 3px solid #243043;
+	border-radius: 5px;
+	margin: 1rem 4.375rem;
+	padding: 7em 4.375em;
+	color: #243043;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: stretch;
+	font-size: 24px;
+	box-shadow: 0px 0px 20px 2px #233043;
+}
+
+.contactWrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 0 1rem;
+}
+
+.textWrapper h3 {
+	font-size: 48px;
+}
+
+.textWrapper span {
+	font-size: 18px;
+}
+
+.connect {
+	font-size: 18px;
+}
+
+.mailWrapper {
+	font-size: 18px;
+}
+
+.formWrapper {
+	width: 50%;
+}
+
+.phoneWrapper,
+.mailWrapper {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.phoneWrapper p,
+.mailWrapper p {
+	margin-left: 20px;
+}
+
+.phoneWrapper a,
+.mailWrapper a {
+	text-decoration: none;
+	color: #243043;
+}
+
+@media (max-width: 768px) {
+	.connectWrapper {
+		align-items: center;
+		flex-direction: column;
+		padding: 3em 2.375em;
+		font-size: 18px;
+	}
+
+	.formWrapper {
+		width: 65%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	.connectWrapper {
+		padding: 4em 3.375em;
+		font-size: 20px;
+	}
+}

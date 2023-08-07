@@ -1,0 +1,36 @@
+.formWrapper {
+	float: right;
+	width: auto;
+}
+
+.info {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.contactMe {
+	margin-top: 5rem;
+	margin-bottom: 1.5rem;
+}
+
+@media (max-width: 768px) {
+	.formWrapper {
+		float: none;
+		width: 100%;
+		margin-top: 2rem;
+	}
+
+	.info {
+		flex-direction: column;
+	}
+
+	.contactMe {
+		margin-top: 3rem;
+	}
+}
+
+@media (min-width: 400px) and (max-width: 600px) {
+	.formWrapper {
+		margin-left: -2rem;
+	}
+}

@@ -1,0 +1,11 @@
+.content-text h2 {
+	font-size: 56px;
+}
+
+.content-text p {
+	font-size: 1.5rem;
+	font-family: 'Inter';
+	font-size: 20px;
+	color: #292929;
+	max-width: 1020px;
+}
